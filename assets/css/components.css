@@ -1,0 +1,45 @@
+.btn {
+  background-color: #f22;
+  width: 200px;
+  height: 50px;
+  /* 2em = 2 x 16px (html) */
+  font-size: 2em; 
+  cursor: pointer;
+}
+
+.btn:hover {
+  /* background-color: #1472d5; */
+  width: 205px;
+  height: 55px;
+  opacity: 0.75;
+}
+
+nav.navigation a {
+    font-size: 2em;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    /* transition-property: color; */
+    /* recommended transition time is between 400ms and 600ms */
+    /* transition-duration: 400ms; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition: color 400ms; */
+
+    /* transition-property: color, background-color;
+    transition-duration: 500ms; */
+    /* transition: color 1000ms, background-color 1000ms; */
+}
+
+nav.navigation a:hover {
+  /* color: #f11; */
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+/* .box {
+  width: 500px;
+  background-color: #0ca5b9;
+  height: 50%;
+} */
