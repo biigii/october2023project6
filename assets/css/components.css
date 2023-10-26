@@ -1,45 +1,66 @@
-.btn {
-  background-color: #f22;
-  width: 200px;
-  height: 50px;
-  /* 2em = 2 x 16px (html) */
-  font-size: 2em; 
-  cursor: pointer;
+body {
+  background-color: #ebe28e;
 }
 
-.btn:hover {
-  /* background-color: #1472d5; */
-  width: 205px;
-  height: 55px;
-  opacity: 0.75;
+.box {
+  background-color: #5874e4;
+  /* color: #e1e3ed; */
 }
 
-nav.navigation a {
-    font-size: 2em;
-    text-transform: capitalize;
-    text-decoration: none;
-    color: #000;
-    /* transition-property: color; */
-    /* recommended transition time is between 400ms and 600ms */
-    /* transition-duration: 400ms; */
-    /* transition-timing-function: ease-in-out; */
-    /* transition: color 400ms; */
-
-    /* transition-property: color, background-color;
-    transition-duration: 500ms; */
-    /* transition: color 1000ms, background-color 1000ms; */
-}
-
-nav.navigation a:hover {
-  /* color: #f11; */
-  background-color: #000;
-  color: #fff;
-}
-
-
-
-/* .box {
+/* box model */
+.box-1 {
   width: 500px;
-  background-color: #0ca5b9;
-  height: 50%;
-} */
+  /* height: 300px; */
+  /* padding: 40px; */
+  /* top right bottom and left */
+  /* padding: 40px 40px 40px 40px; */
+  /* padding: 10px 20px 100px 200px; */
+  /* padding: 30px 50px 30px 50px;
+  padding: 30px 50px; */
+  /* padding: 30px 30px 30px 30px; */
+  /* padding: 30px; */
+  /* padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  padding-left: 100px; */
+  padding: 60px;
+   margin: 40px;
+   color: rgb(208, 23, 23);
+   /* border-width: 20px; */
+   /* solid dashed dotted and double */
+   /* border-style: solid; */
+   /* border-color: #00f; */
+    /* border: 20px solid; */
+  border: 20px solid rgb(47, 86, 2);
+}
+
+.box-2 {
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  padding: 20px;
+  border: 20px solid;
+  border-radius: 50%;
+  /* margin: 50px 50px 50px 50px; */
+  /* margin: 20px 12px 20px 12px;
+  margin: 20px 12px; */
+  /* margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 100px; */
+  /* height: 300px; */
+}
+
+.boxx {
+  color: red;
+ border: 10px solid;
+}
+
+p.first {
+  color: blue;
+  border: 10px dashed
+}
+
+p.second {
+
+}
