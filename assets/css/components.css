@@ -1,66 +1,93 @@
-body {
-  background-color: #ebe28e;
+nav.navigation {
+  text-align: center;
+}
+
+nav.navigation a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #ec3b3b;
+  display: inline-block;
+  /* width and height don't work for inline elements */
+  /* width: 200px;
+  height: 50px; */
+  /* margin left and right work */
+  /* margin-right: 30px;
+  margin-left: 30px; */
+  /* margin top and bottom do not work */
+  /* margin-top: 80px;
+  margin-bottom: 200px; */
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  padding-top: 100px ;
+  padding-bottom: 500px ;
+}
+
+a.google {
+  display: block;
+  background-color: #f22;
+  width: 500px;
+  height: 200px;
+}
+
+h1 {
+  display: block;
+  background-color: #f22;
+  width: 500px;
+  height: 200px;
+}
+
+.block {
+  width: 400px;
+  height: 300px;
+  border: 10px solid;
+  padding: 30px;
+  /* box sizing does not work on margin */
+  margin: 50px;
+}
+
+.block-1 {
+  background-color: #d34141;
+  /* box-sizing: content-box; */
+  /* box-sizing: border-box; */
+}
+
+.block-2 {
+  background-color: #0be98c;
+}
+
+header {
+  height: 100px;
+  background-color: #8a0de3;
 }
 
 .box {
-  background-color: #5874e4;
-  /* color: #e1e3ed; */
-}
-
-/* box model */
-.box-1 {
-  width: 500px;
-  /* height: 300px; */
-  /* padding: 40px; */
-  /* top right bottom and left */
-  /* padding: 40px 40px 40px 40px; */
-  /* padding: 10px 20px 100px 200px; */
-  /* padding: 30px 50px 30px 50px;
-  padding: 30px 50px; */
-  /* padding: 30px 30px 30px 30px; */
-  /* padding: 30px; */
-  /* padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 40px;
-  padding-left: 100px; */
-  padding: 60px;
-   margin: 40px;
-   color: rgb(208, 23, 23);
-   /* border-width: 20px; */
-   /* solid dashed dotted and double */
-   /* border-style: solid; */
-   /* border-color: #00f; */
-    /* border: 20px solid; */
-  border: 20px solid rgb(47, 86, 2);
-}
-
-.box-2 {
   width: 300px;
   height: 300px;
+  background-color: #179abf;
   margin: 50px;
-  padding: 20px;
-  border: 20px solid;
-  border-radius: 50%;
-  /* margin: 50px 50px 50px 50px; */
-  /* margin: 20px 12px 20px 12px;
-  margin: 20px 12px; */
-  /* margin-top: 200px;
-  margin-bottom: 100px;
-  margin-left: 20px;
-  margin-right: 100px; */
-  /* height: 300px; */
+  /* border: 10px solid; */
+  /* border-bottom: 20px solid;
+  border-left: 30px dashed;
+  border-top: 20px dotted;
+  border-right: 30px double; */
+  border: 20px solid #8a0de3;
+  /* border-radius: 45px; */
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 50px;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 200px;
 }
 
-.boxx {
-  color: red;
- border: 10px solid;
+header {
+  margin-bottom: 50px;
 }
 
-p.first {
-  color: blue;
-  border: 10px dashed
+h2 {
+  margin-bottom: 60px;
 }
 
-p.second {
-
+p {
+  margin-bottom: 40px;
 }
